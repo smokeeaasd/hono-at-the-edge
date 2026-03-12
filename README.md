@@ -71,7 +71,6 @@ O endpoint `/` retorna informações de geolocalização do usuário, como país
 
 ```json
 {
-  "message": "Hello with Hono on Cloudflare Workers!",
   "location": "São Paulo BR"
 }
 ```
