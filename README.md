@@ -7,6 +7,12 @@ Este é um projeto simples para demonstrar o uso de **Edge Computing** com **Clo
 * **Hono:** Um framework ultra-veloz e leve, focado em Web Standards.
 * **Cloudflare Workers:** Execução de código serverless distribuída globalmente (Edge), eliminando a necessidade de servidores tradicionais.
 
+### ✅❌ Prós e Contras:
+| Prós                          | Contras                         |
+|-------------------------------|---------------------------------|
+| Baixa latência global, perfeita para APIs de geolocalização | Limitações de recursos (CPU, memória) | 
+| É fácil de configurar e escalar automaticamente | Curva de aprendizado para quem não conhece serverless |
+| Cold Start quase inexistente, ideal para aplicações de alta performance | Nem toda biblioteca Node.js funciona, pois os Workers não rodam sobre Node, mas sim sobre uma API de Web Standards |
 ---
 
 ### 🛠️ Tecnologias
