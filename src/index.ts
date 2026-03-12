@@ -12,7 +12,6 @@ app.get("/", (c) => {
   }
 
   return c.json({
-    message: "Hello with Hono on Cloudflare Workers!",
     location: `${cf.city} ${cf.country}`,
   });
 });
